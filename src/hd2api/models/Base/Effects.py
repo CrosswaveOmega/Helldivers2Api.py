@@ -23,3 +23,9 @@ class PlanetActiveEffects(BaseApiModel):
         default=None,
         description="The effect id of the effect in question.",
     )
+
+    place_id: Optional[str] = Field(
+        alias="place_id",
+        default=None,
+        description="An identifier that could be applied to effects if desired.",
+    )
