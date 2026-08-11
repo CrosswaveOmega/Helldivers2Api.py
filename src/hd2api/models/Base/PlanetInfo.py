@@ -58,3 +58,15 @@ class PlanetInfo(BaseApiModel):
         default=None,
         description="The identifier of the faction that initially owned this planet.",
     )
+
+    planetNameId32: Optional[int] = Field(
+        alias="planetNameId32",
+        default=None,
+        description="USE UNKNOWN.",
+    )
+
+    planetBiomeId32: Optional[int] = Field(
+        alias="planetBiomeId32",
+        default=None,
+        description="USE UNKNOWN.",
+    )
